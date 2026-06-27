@@ -1,4 +1,3 @@
-```markdown
 # Phase 2: Display Server, Desktop Environment, & NVIDIA Graphics Integration
 
 ## 1. 🎯 Objective
@@ -115,9 +114,3 @@ sudo systemctl enable sddm
 2. Implemented Early KMS by inserting the proper hardware driver array (`nvidia`, `nvidia_modeset`, `nvidia_uvm`, `nvidia_drm`) directly inside `/etc/mkinitcpio.conf` and updating the ramdisk blocks via `sudo mkinitcpio -P`.
 3. Formulated explicit flags inside `/etc/environment` to bind the compositor to the NVIDIA hardware backends (`nvidia-drm`).
 4. Executed a clean system hardware cycle reset (`reboot`). Upon graphical session re-initialization, `kwin_wayland` CPU overhead dropped from **95% to <2%**, and processing loads successfully shifted entirely onto the RTX 2070 GPU hardware pipelines.
-
-
-
-```
-
-```
