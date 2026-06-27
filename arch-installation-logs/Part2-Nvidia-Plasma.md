@@ -1,3 +1,4 @@
+Markdown
 # Phase 2: Display Server, Desktop Environment, & NVIDIA Graphics Pipeline Integration
 
 ## 1. 🎯 Objective
