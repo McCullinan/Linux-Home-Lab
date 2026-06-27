@@ -1,4 +1,3 @@
-markdown
 # Phase 1: Bare-Metal Core Bootstrap & Bootloader Resolution
 
 ## 1. 🎯 Objective
