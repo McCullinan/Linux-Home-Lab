@@ -1,4 +1,3 @@
-```bash
 #!/usr/bin/env bash
 
 # ==============================================================================
@@ -154,5 +153,3 @@ ufw --force enable
 log_success "Automation runtime completed cleanly without execution state drift."
 log_warn "A system restart is required to mount the NVIDIA kernel frames and launch SDDM."
 echo -e "\n${YELLOW}[ACTION REQUIRED]${NC} Execute: sudo reboot"
-
-```
