@@ -1,0 +1,16 @@
+# Logs and runtime caches
+*.log
+Phase*/_cache/
+
+# System specific files
+.DS_Store
+.directory
+
+# Sudo/Nano swap files 
+.*.swp
+.*.swo
+
+# Sensitive files
+*.pem
+*.key
+secret*
