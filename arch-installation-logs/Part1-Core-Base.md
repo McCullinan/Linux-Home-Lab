@@ -1,4 +1,4 @@
-```markdown
+markdown
 # Phase 1: Bare-Metal Core Bootstrap & Bootloader Resolution
 
 ## 1. 🎯 Objective
@@ -168,9 +168,3 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 5. Verified successful stdout rendering (`Found linux image: /boot/vmlinuz-linux`), clean unmounted the runtime hierarchies via `umount -R /mnt`, extracted peripheral media, and initiated a warm system reset (`reboot`). Persistence and target boot parameters verified operational.
-
-
-
-```
-
-```
