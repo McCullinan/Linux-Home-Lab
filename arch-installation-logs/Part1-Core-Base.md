@@ -11,9 +11,8 @@ This log documents the enterprise-grade bootstrap installation of Arch Linux on 
 In this phase, the live environment volatile memory space was initialized, network synchronization was verified, and the storage block devices were structured using a modern Guid Partition Table (GPT).
 
 1. **Live Environment Mirror Optimization:**
-   ```bash
-   reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
-
+```bash
+reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
 ```
 
 2. **Storage Partitioning via `gdisk` (GPT Explicit):**
